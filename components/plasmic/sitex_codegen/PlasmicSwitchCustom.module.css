@@ -1,0 +1,41 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  transition-property: all;
+  transition-duration: 0.25s;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.25s;
+  border-radius: 30px;
+  padding: 4px 20px 4px 4px;
+  border: 1px solid var(--token--ypw6enySR1T);
+}
+.rootisOn {
+  opacity: 1;
+  padding: 4px 4px 4px 20px;
+}
+.freeBox {
+  display: block;
+  position: relative;
+  width: 8px;
+  height: 8px;
+  max-width: auto;
+  left: auto;
+  top: auto;
+  background: var(--token-Bo2_tT25lwh4);
+  z-index: 1;
+  align-self: auto;
+  opacity: 0.4;
+  flex-shrink: 0;
+  border-radius: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+.freeBoxisOn {
+  opacity: 1;
+}
