@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -419,7 +419,8 @@
           "componentImportPath": "@plasmicpkgs/antd5/skinny/registerBreadcrumb"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "gmeH6XgPaBtkt51HunAo4g",
@@ -627,7 +628,8 @@
           "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerDialog"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "orPHpegkXfnsyZCa6kLatK",
@@ -636,48 +638,6 @@
       "version": "latest",
       "cssFilePath": "plasmic/sitex_codegen/plasmic.module.css",
       "components": [
-        {
-          "id": "ZwNhYGbRyRwE",
-          "name": "Homepage",
-          "type": "managed",
-          "projectId": "orPHpegkXfnsyZCa6kLatK",
-          "renderModuleFilePath": "plasmic/sitex_codegen/PlasmicHomepage.tsx",
-          "importSpec": {
-            "modulePath": "../pages/index.tsx"
-          },
-          "cssFilePath": "plasmic/sitex_codegen/PlasmicHomepage.module.css",
-          "scheme": "blackbox",
-          "componentType": "page",
-          "path": "/"
-        },
-        {
-          "id": "iIq611Ma0PfO",
-          "name": "SystemBanners",
-          "type": "managed",
-          "projectId": "orPHpegkXfnsyZCa6kLatK",
-          "renderModuleFilePath": "plasmic/sitex_codegen/PlasmicSystemBanners.tsx",
-          "importSpec": {
-            "modulePath": "../pages/system-banners.tsx"
-          },
-          "cssFilePath": "plasmic/sitex_codegen/PlasmicSystemBanners.module.css",
-          "scheme": "blackbox",
-          "componentType": "page",
-          "path": "/system-banners"
-        },
-        {
-          "id": "pfhJGwKJL8HB",
-          "name": "ToastModal",
-          "type": "managed",
-          "projectId": "orPHpegkXfnsyZCa6kLatK",
-          "renderModuleFilePath": "plasmic/sitex_codegen/PlasmicToastModal.tsx",
-          "importSpec": {
-            "modulePath": "../pages/new-page.tsx"
-          },
-          "cssFilePath": "plasmic/sitex_codegen/PlasmicToastModal.module.css",
-          "scheme": "blackbox",
-          "componentType": "page",
-          "path": "/new-page"
-        },
         {
           "id": "d85BId7VkAI4",
           "name": "Dashboard",
@@ -758,20 +718,6 @@
           "cssFilePath": "plasmic/sitex_codegen/PlasmicLogo.module.css",
           "scheme": "blackbox",
           "componentType": "component"
-        },
-        {
-          "id": "NOpq3sKcj9K4",
-          "name": "NewPage",
-          "type": "managed",
-          "projectId": "orPHpegkXfnsyZCa6kLatK",
-          "renderModuleFilePath": "plasmic/sitex_codegen/PlasmicNewPage.tsx",
-          "importSpec": {
-            "modulePath": "../pages/new-page-3.tsx"
-          },
-          "cssFilePath": "plasmic/sitex_codegen/PlasmicNewPage.module.css",
-          "scheme": "blackbox",
-          "componentType": "page",
-          "path": "/new-page-3"
         },
         {
           "id": "TPfRsLAK0yBw",
@@ -1086,20 +1032,6 @@
           "componentType": "component"
         },
         {
-          "id": "huic3TDZds9G",
-          "name": "Testing",
-          "type": "managed",
-          "projectId": "orPHpegkXfnsyZCa6kLatK",
-          "renderModuleFilePath": "plasmic/sitex_codegen/PlasmicTesting.tsx",
-          "importSpec": {
-            "modulePath": "../pages/testing.tsx"
-          },
-          "cssFilePath": "plasmic/sitex_codegen/PlasmicTesting.module.css",
-          "scheme": "blackbox",
-          "componentType": "page",
-          "path": "/testing"
-        },
-        {
           "id": "P-Rlj4kzeace",
           "name": "SwitchCustom",
           "type": "managed",
@@ -1332,6 +1264,26 @@
           "id": "94S74nPTH99-",
           "name": "Line295Icon",
           "moduleFilePath": "plasmic/sitex_codegen/icons/PlasmicIcon__Line295.tsx"
+        },
+        {
+          "id": "EZC0LHHSLB2A",
+          "name": "PlayCircleIcon",
+          "moduleFilePath": "plasmic/sitex_codegen/icons/PlasmicIcon__PlayCircle.tsx"
+        },
+        {
+          "id": "G3Ovt8zoxsEg",
+          "name": "MapPinIcon",
+          "moduleFilePath": "plasmic/sitex_codegen/icons/PlasmicIcon__MapPin.tsx"
+        },
+        {
+          "id": "jinn6CoJ18lW",
+          "name": "AddressBookIcon",
+          "moduleFilePath": "plasmic/sitex_codegen/icons/PlasmicIcon__AddressBook.tsx"
+        },
+        {
+          "id": "lKCuIx4u-QCA",
+          "name": "Dot2Icon",
+          "moduleFilePath": "plasmic/sitex_codegen/icons/PlasmicIcon__Dot2.tsx"
         }
       ],
       "images": [
@@ -1374,6 +1326,16 @@
           "id": "ya5FfFrDb30w",
           "name": "Placeholder Image.png 2",
           "filePath": "../public/plasmic/sitex_codegen/images/placeholderImagePng2.png"
+        },
+        {
+          "id": "lPs93eDMoHlx",
+          "name": "Frame 66",
+          "filePath": "../public/plasmic/sitex_codegen/images/frame66.svg"
+        },
+        {
+          "id": "k4BN5dBY77sx",
+          "name": "Frame 67",
+          "filePath": "../public/plasmic/sitex_codegen/images/frame67.svg"
         }
       ],
       "indirect": false,

@@ -396,7 +396,7 @@ function PlasmicDashboard__RenderFunc(props: {
 
                     $steps["goToSystemBanners"] = true
                       ? (() => {
-                          const actionArgs = { destination: `/system-banners` };
+                          const actionArgs = {};
                           return (({ destination }) => {
                             if (
                               typeof destination === "string" &&
